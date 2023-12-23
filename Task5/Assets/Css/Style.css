@@ -1,0 +1,141 @@
+body{
+    background-color: rgb(207, 207, 207);
+}
+
+
+#products-area{
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+#product-area .product{
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 350px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 250px;
+    padding: 3px;
+}
+
+#product-area .product .left-side{
+    width: 180px;
+    height: 175;
+}
+
+#product-area .product .right-side{
+    width: 180px;
+    height: 175px;
+    margin-right: 50px;
+}
+#product-area .product .left-side h4{
+    margin-top: 25px;
+    margin-left: 15px;
+    font-size: 23px;
+}
+
+#product-area .product .left-side h3{
+    margin-left: 17px;
+    margin-top: 5px;
+    display: inline;
+}
+
+#product-area .product .left-side h2{
+    color: red;
+    margin-top: 2px;
+    margin-left: 19px;
+    font-size: 36px;
+}
+    
+#product-area .product .up{
+    display: flex;
+}
+#product-area .product .up .right-side .image img{
+    width: 220px;
+    height: 160px;
+ 
+}
+
+#product-area .product .down{
+    width: 402px;
+    height: 160px;
+}
+
+#product-area .product .down .colors{
+    display: flex;
+    width:402;
+    height: 20px;
+}
+
+#product-area .product .down .colors .text{
+    margin-left: 10px;
+}
+
+#product-area .product .down .colors .text span{
+    color: rgb(96, 96, 96);
+    font-size: 17px;
+}
+#product-area .product .down .colors .items{
+    width: 118px;
+    height: 30px;
+    display: flex;
+    gap: 5px;
+    margin-left: 157px;
+}
+
+#product-area .product .down .colors .items .color{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+#product-area .product .down .colors .items .color.item1{
+    background-color: red;
+}
+
+#product-area .product .down .colors .items .color.item2{
+    background-color: blue;
+}
+
+#product-area .product .down .colors .items .color.item3{
+    background-color: yellow;
+}
+
+#product-area .product .down .colors .items .color.item4{
+    background-color: purple;
+}
+
+#product-area .product .down .content{
+    margin-left: 10px;
+}
+
+#product-area .product .down .content .content-text{
+    color:  rgb(96, 96, 96);
+    font-size: 22px;
+    height: 30px;
+}
+
+#product-area .product .down .content .content-link{
+    margin-left: 20px;
+    background-color: rgb(229, 73, 73);
+    border-radius: 5px;
+    width: 350px;
+    height: 40px;
+}
+
+#product-area .product .down .content .content-link .link-text{
+    margin-left: 130px;
+    margin-top: 30px;
+    width: 300px;
+    height:20px;
+    padding: 10px;
+}
+#product-area .product .down .content .content-link a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+  
+}
+

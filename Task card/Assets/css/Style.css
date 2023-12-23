@@ -1,0 +1,157 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    background-color: rgb(255, 183, 0);
+}
+
+#products-area{
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+#products-area .products{
+    display: flex;
+    gap:15px;
+}
+
+#products-area .item1{
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 300px;
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+#products-area .item1 .image{
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+#products-area  .item1 .image .text h6{
+    margin-left: 125px;
+}
+   #products-area  .item1 .image .shoes-img img{
+    height: 125px;
+    width: 125px;
+    margin: 15px;
+    border-radius: 10px;
+   }
+
+   #products-area  .item1 .title h4{
+    text-align: center;
+    margin-top: 5px;
+    color: red;
+   }
+
+   #products-area  .item1 .body-text p{
+    text-align: center;
+    font-size: 10px;
+    margin-top: 2px;
+   }
+
+
+   #cproducts-area  .item1 .colors{
+    display: flex;
+    margin: 5px;
+
+   }
+
+   #products-area .item1 .footer{
+    display: flex;
+    margin: 20px;
+    padding: 10px;
+   }
+
+   #products-area .item1 .footer .price{
+    margin: 5px;
+   }
+
+   #products-area  .item1. .footer .price p{
+    text-align: center;
+   }
+
+   #products-area .products.item1 .footer .button {
+    margin: 5px;
+    background-color: pink;
+
+    border-radius: 50%;
+   }
+  
+
+   #products-area .item1 .colors{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 5px;
+   }
+
+#products-area .item1 .color1{
+    background-color: blue;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+   
+}
+#products-area .item1 .color2{
+    background-color: green;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+
+}
+#products-area .item1 .color3{
+    background-color: pink;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+
+}
+
+#products-area .products .item2{
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 300px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#products-area .products .item2 .card-up .image{
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+#products-area .products .item2 .card-up .image img{
+    width: 120px;
+    height: 100px;
+    margin: 30px;
+}
+
+#products-area .products .item2 .card-up .logo-text p{
+    margin-left: 135px;
+    font-size: 11px;
+    margin-top: 5px;
+}
+
+#products-area .products .item2 .card-up .content-text{
+text-align: center;
+margin-top: 2px;
+color: red;
+}
+
+
+
+
